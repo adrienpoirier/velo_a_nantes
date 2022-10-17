@@ -233,7 +233,7 @@
 			<id>heroku</id>
 			<properties>
 				<initializationMode>never</initializationMode>
-				<activatedProperties>heroku</activatedProperties>
+				<activatedProperties>POSTGRESQL</activatedProperties>
 			</properties>
 			<activation>
 				<activeByDefault>true</activeByDefault>
