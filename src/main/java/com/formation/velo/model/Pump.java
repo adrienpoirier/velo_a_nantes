@@ -13,10 +13,9 @@ import java.util.Date;
 @Entity
 @Table(name = "pumps")
 public class Pump implements Serializable {
-    Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-
     private String ville;
     private String pop;
     private String regName;
